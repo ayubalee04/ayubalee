@@ -6,7 +6,7 @@
 
 .head img {
     width: 100%;
-    height: 100vh;
+   
 }
 
 .head {
@@ -15,18 +15,23 @@
 
 .banner {
     position: absolute;
-    bottom: 50px;
+    bottom: 71px;
     width: 70%;
     background-color: #ffc107 !important;
     color: black;
     opacity: 70%;
+    
+   
+   
 }
 
-.banner h1 {
-    font-size: 30px;
-    padding-left: 20px;
-    margin: 10px 0;
-    line-height: 1.5;
+.banner h2 { 
+      font-size: 30px;
+      line-height: 1.5;
+      padding: 0.15px 16px;   
+     font-family: "Segoe UI",Arial,sans-serif;
+     margin: 10px 0;
+   
 }
 
 .banner:hover {
@@ -36,15 +41,16 @@
 .mid {
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 30px;
+    margin: 45px 32px  2px 32px;
     justify-content: space-between;
 }
 
 .card {
-    border-top: 5px solid #ff9800;
-    width: 49%;
-    margin-bottom: 30px;
-
+    border-top: 6px solid #ffc107;
+    width:calc(50% - 16px);
+   margin-bottom: 49px;
+  
+   
 }
 
 .card img {
@@ -52,8 +58,19 @@
 }
 
 .card p {
-    padding: 20px 0;
+    font-size: 15px;
+    margin: 15px 0;
+    font-family: Verdana,sans-serif;
+   line-height: 1.5;
+}
+.card h2{
     font-size: 30px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 6px 0;
+    line-height: 1.5;
+    
+
 }
 
 
